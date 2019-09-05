@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sumador</h1>
+    <input id=txtb_Caja1 type="text">
+    <input id=txtb_Caja2 type="text">
+
+    <button id=btn_Boton1>Sumar!</button>
+    
+    <script>
+        document.getElementById('btn_Boton1').addEventListener('click', function () {
+            
+            var a = document.getElementById('txtb_Caja1').value
+
+            var b = document.getElementById('txtb_Caja2').value    
+            
+            res = parseInt(a)+parseInt(b)
+            alert('La suma es: '+res)
+
+        //Leer 2 input y mostrar en un alert la suma de ambos inputs.
+
+        })
+    </script>
+
+</body>
+</html>

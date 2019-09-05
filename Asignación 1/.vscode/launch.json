@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - palindromo",
+            "request": "launch",
+            "mainClass": "palindromo",
+            "projectName": "Java_7c44740b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "Java_7c44740b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - cosa",
+            "request": "launch",
+            "mainClass": "cosa",
+            "projectName": "Java_7c44740b"
+        }
+    ]
+}
