@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--Leer un número N y en base a ese N generar una Matriz NxN. 
+Los números de la matriz se llenan de del 0 al 10 de izquierda a derecha.
+Imprimir la matriz y a imprimir la suma de la diagonal principal de esa matriz.-->
+
+<h1>Investigación #1</h1>
+    <input id=txtb_Caja1 type="text">
+
+    <button id=btn_Boton1>Generar</button>
+    
+    <script>
+        document.getElementById('btn_Boton1').addEventListener('click', function () {
+            
+            var entrada = document.getElementById('txtb_Caja1').value
+            
+                var arr_e = [];
+
+                for (var i=0;i<entrada;i++) {
+                    
+                    var arr_i = []
+                    
+                    for (var x=0;x<entrada;x++) {
+                                                
+                        arr_i[x] = Math.round(Math.random() * 9)
+
+                    }
+                  
+                    arr_e[i] = arr_i;
+
+                }
+
+                
+                //fin del arreglo
+                console.log(arr_e)
+                //imprimir el arreglo
+
+                var suma=0;
+                var x = entrada;
+
+                for (var x=0;x<entrada;x++) {
+
+                    suma = suma + arr_e[x][x]                  
+
+                }
+
+                console.log("El total de la diagonal es: "+suma);
+
+        })
+
+    </script>
+
+</body>
+</html>
