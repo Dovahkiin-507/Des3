@@ -8,7 +8,7 @@
 
     display: flex;
     background: red;
-    height: 120px;
+    height: 30px;
     padding: 0.5%;
     justify-content: flex-end;
     justify-content: space-between;
@@ -18,8 +18,8 @@
 .Contenedor1{
     display: flex;
     background: gray;
-    height: 1400px;
-    padding: 5%;
+    height: 500px;
+    padding: 3%;
     justify-content: flex-end;
     justify-content: space-between;
 }
@@ -42,7 +42,7 @@
 
 .Separador1{
 
-    height: 2%;
+    height: 1%;
     background: magenta;
 
 }
@@ -55,7 +55,7 @@
 .Separador2{
 
     background: magenta;
-    width: 5%;
+    width: 1%;
     height: 90%;
 
 }
@@ -68,19 +68,57 @@
 
 }
 
+.contenidoF{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 5%;
+
+}
+
+.tituloF{
+
+    margin-bottom: 5%;
+
+}
+
+.txtb_usuario{
+
+    height: 30px;
+    margin-bottom: 5%;
+    font-size: 20px;
+
+}
+
+.txtb_correo{
+
+    height: 30px;
+    margin-bottom: 10%;
+    font-size: 20px;
+
+}
+
+.btn_Registrar{
+
+    height: 60px;
+
+}
+
+
+
 .Contenedor2{
 
     display: flex;
     background: pink;
-    height: 1500px;
-    padding: 5%;
-    padding-bottom: 0%;
+    height: 500px;
+    padding: 3%;
 
 }
 
 .Comentarios{
 
-    width: 50%;
+    width: 40%;
     height: 100%;
     background: goldenrod;
 
@@ -108,7 +146,7 @@
 
 .Imagenes{
 
-    width: 50%;
+    width: 60%;
     height: 100%;
     background: lawngreen;
 
@@ -117,13 +155,13 @@
 .MensajeFinal{
 
     background: red;
-    height: 200px;
+    height: 60px;
  
 
 }
 
 .Footer{
     background: purple;
-    height: 200px;
+    height: 50px;
 }
 
