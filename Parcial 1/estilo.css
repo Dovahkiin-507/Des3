@@ -7,21 +7,28 @@
 .Header{
 
     display: flex;
-    background: red;
-    height: 30px;
-    padding: 0.5%;
+    background: rgb(0, 0, 0, 0.7);
+    height: 45px;
+    width: 100%;
     justify-content: flex-end;
     justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 
 }
 
 .Contenedor1{
-    display: flex;
+    display: flex;  
     background: gray;
-    height: 500px;
+    height: 550px;
     padding: 3%;
+    padding-top: 6%;
     justify-content: flex-end;
     justify-content: space-between;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+ 
 }
 
 .Espacio1{
@@ -29,15 +36,16 @@
     display: flex;
     height: 90%;
     width: 100%;
-    background: green;
+    --background: green;
     flex-direction: column;
     justify-content: center;
 
 }
 
 .Titulo1{
-    background: red;
+    --background: red;
     padding: 1%;
+    color: white;
 }
 
 .Separador1{
@@ -48,7 +56,7 @@
 }
 
 .Titulo2{
-    background: yellowgreen;
+    --background: yellowgreen;
     padding: 1%;
 }
 
@@ -62,7 +70,7 @@
 
 .Formulario{
 
-    background: cyan;
+    background:rgb(0, 0, 0, 0.5);
     width: 50%;
     height: 90%;
 
@@ -80,7 +88,7 @@
 .tituloF{
 
     margin-bottom: 5%;
-
+    color: white;
 }
 
 .txtb_usuario{
