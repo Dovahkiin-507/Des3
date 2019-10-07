@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.Header{
+
+    display: flex;
+    background: red;
+    height: 120px;
+    padding: 0.5%;
+    justify-content: flex-end;
+    justify-content: space-between;
+
+}
+
+.Contenedor1{
+    display: flex;
+    background: gray;
+    height: 1400px;
+    padding: 5%;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.Espacio1{
+
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background: green;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Titulo1{
+    background: red;
+    padding: 1%;
+}
+
+.Separador1{
+
+    height: 2%;
+    background: magenta;
+
+}
+
+.Titulo2{
+    background: yellowgreen;
+    padding: 1%;
+}
+
+.Separador2{
+
+    background: magenta;
+    width: 5%;
+    height: 90%;
+
+}
+
+.Formulario{
+
+    background: cyan;
+    width: 50%;
+    height: 90%;
+
+}
+
+.Contenedor2{
+
+    display: flex;
+    background: pink;
+    height: 1500px;
+    padding: 5%;
+    padding-bottom: 0%;
+
+}
+
+.Comentarios{
+
+    width: 50%;
+    height: 100%;
+    background: goldenrod;
+
+}
+
+.Comentario1{
+
+    height: 5%;
+    background: coral;
+
+}
+
+.Comentario2{
+
+    height: 5%;
+    background: powderblue;
+
+}
+
+.Comentario3{
+
+    height: 5%;
+    background: red;
+}
+
+.Imagenes{
+
+    width: 50%;
+    height: 100%;
+    background: lawngreen;
+
+}
+
+.MensajeFinal{
+
+    background: red;
+    height: 200px;
+ 
+
+}
+
+.Footer{
+    background: purple;
+    height: 200px;
+}
+
