@@ -8,6 +8,29 @@ h2{
     color: white;
 }
 
+li{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    list-style-position: outside;
+}
+
+li::before{
+    content: "\2022";
+    color: rgb(223, 49, 49);
+    list-style-position: outside;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+ul{
+    padding-left: 7%;
+    list-style: none;
+}
+
 .Header{
 
     display: flex;
@@ -103,6 +126,7 @@ i:hover{
     background:rgb(0, 0, 0, 0.5);
     width: 50%;
     height: 90%;
+    box-shadow: 0px 0px 10px 1px rgb(223, 49, 49);
 
 }
 
@@ -185,41 +209,20 @@ mark.PTY{
 .Comentarios{
 
     display: flex;
-    width: 30%;
+    width: 35%;
     height: 97%;
-    background: goldenrod;
+    background:rgba(0, 0, 0, 0.568);
     padding: 2%;
     flex-flow: row wrap;
-    justify-content: space-around;
 
-}
-
-.Comentario1{
-
-    height: 5%;
-    background: coral;
-
-}
-
-.Comentario2{
-
-    height: 5%;
-    background: powderblue;
-
-}
-
-.Comentario3{
-
-    height: 5%;
-    background: red;
 }
 
 .Imagenes{
 
     display: flex;
-    width: 62%;
+    width: 60%;
     height: 92%;
-    background:rgba(0, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.568);
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 2%;
@@ -228,62 +231,130 @@ mark.PTY{
 }
 
 
-
-
-
 .MensajeFinal{
 
-    background: red;
+    display: flex;
+    width: 100%;
     height: 60px;
- 
+    background: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Allerta Stencil', sans-serif;
+}
 
+.sublinea{
+
+    background: rgb(223, 49, 49);
+    height: 5px;
+
+}
+
+.mFinal{
+
+    color: white;
 }
 
 .Footer{
-    background: purple;
-    height: 50px;
+    background: rgb(223, 49, 49);
+    height: 5px;
 }
 
-.I1{background-color: green;
+.I1{
+    position: relative;
+    background: white;
     height: 200px;
     width: 350px;
+}
+    
+
+.capa1{
+    height: 200px;
+    width: 350px;
+    position: absolute;
     background-image: url(3.jpg);
     background-size: cover;
 }
 
-.I2{background-color: red;
+.capa1:hover{
+        opacity: 0.9;
+}
+
+
+
+.I2{
+    position: relative;
+    background: white;
     height: 200px;
     width: 350px;
+}
+
+.capa2{
+    height: 200px;
+    width: 350px;
+    position: absolute;
     background-image: url(1.jpg);
     background-size: cover;
 }
 
-.I3{background-color: red;
+.capa2:hover{
+    opacity: 0.9;
+}
+
+.I3{
+    position: relative;
+    background: white;
     height: 200px;
     width: 350px;
+}
+
+.capa3{
+    height: 200px;
+    width: 350px;
+    position: absolute;
     background-image: url(2.jpg);
     background-size: cover;
 }
 
-.I4{background-color: red;
+.capa3:hover{
+    opacity: 0.9;
+}
+
+.I4{
+    position: relative;
+    background: white;
     height: 200px;
     width: 350px;
+}
+
+.capa4{
+    height: 200px;
+    width: 350px;
+    position: absolute;
     background-image: url(4.jpg);
     background-size: cover;
+}
+
+.capa4:hover{
+    opacity: 0.9;
 }
 
 .separador{
 
     display: flex;
     width: 100%;
-    height: 85px;
-    background: rgb(0, 0, 0);
+    height: 60px;
+    background: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
     justify-content: center;
+    font-family: 'Allerta Stencil', sans-serif;
+ 
 
 }
 
 .subtitulo2{
 
-    color: rgb(223, 49, 49);
+    color: white;
 
 }
