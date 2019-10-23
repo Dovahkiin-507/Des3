@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "inves2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inves2",
+            "request": "launch",
+            "mainClass": "inves2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - investigacion2",
+            "request": "launch",
+            "mainClass": "investigacion2",
+            "projectName": "inves2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - investigacion2",
+            "request": "launch",
+            "mainClass": "main.investigacion2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "inves2.App"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - spark",
+            "request": "launch",
+            "mainClass": "spark"
+        }
+    ]
+}
