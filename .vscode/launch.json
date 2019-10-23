@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Casa",
+            "request": "launch",
+            "mainClass": "Casa",
+            "projectName": "Des3_1ad7ed60"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "Des3_1ad7ed60"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - investiga",
+            "request": "launch",
+            "mainClass": "investiga",
+            "projectName": "Des3_1ad7ed60"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - factorial",
             "request": "launch",
             "mainClass": "factorial"
