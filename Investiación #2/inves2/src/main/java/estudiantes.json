@@ -1,0 +1,19 @@
+{
+    "estudiantes": [
+        {
+            "id": 1,
+            "nombre": "Erick Agrazal",
+            "edad": 28
+        },
+        {
+            "id": 2,
+            "nombre": "Vicente Lopez",
+            "edad": 28
+        },
+        {
+            "id": 3,
+            "nombre": "Pedro Navaja",
+            "edad": 65
+        }
+    ]
+}
